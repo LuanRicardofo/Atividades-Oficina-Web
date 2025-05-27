@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+    body {
+    font-size: 25px;
+    margin: 10px 10px 10px 10px;}
+    img {max-width: 100%} 
+  }
+  body {
+    font-family: Arial;
+    color: white;
+    background: dodgerblue;
+    margin: 10px 10px 10px 10px;
+    img {max-width: 100%}
+nav {
+    text-align: center;
+}
+a {
+    font-weight: bold;
+    color: white;
+}
+h1 {
+    font-family: 'Georgia';
+    color: navy;
+    text-align: center;
+}
+h2 {
+    border-bottom: 2px solid white;
+}
+}
+footer {
+    text-align: center;
+}
