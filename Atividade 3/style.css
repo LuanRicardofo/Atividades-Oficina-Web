@@ -1,0 +1,191 @@
+@media (max-width: 600px) {
+    body {
+      margin: 10px 10px 10px 10px;
+    }
+    img {
+      max-width: 100%
+    }
+
+    #cabecalho {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #404E82;
+      color: #FFF;
+      padding: 8px 12px;
+      border-bottom: 3px solid #D99C44;
+      justify-content: center;
+}
+    #logo {
+      height: 60px;
+      margin: 0 0 8px 0;
+      background-color: #FFF;
+}
+    h1.nomedainstituicao {
+      font-size: 15px;
+      color: #FFF;
+      margin: 0;
+      text-align: center;
+}
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background: #EFF3FA;
+  text-align: center;
+}
+
+#container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  background: #FFF;
+  text-align: center;
+  padding: 0 10px;
+}
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  background: #404E82;
+  color: #FFF;
+  padding: 8px 12px;
+  border-bottom: 3px solid #D99C44;
+  justify-content: flex-start;
+}
+#logo {
+  height: 60px;
+  margin-right: 16px;
+  background-color: #FFF;
+}
+h1.nomedainstituicao {
+  font-size: 15px;
+  color: #FFF;
+  margin: 0;
+  text-align: center;
+}
+
+#painel-usuario {
+  height: 20px;
+}
+
+h1 {
+  color: black;
+}
+
+#p1 {
+  font-weight: bold;
+  color: #F00;
+  text-align: center;
+  width: 100%;
+}
+
+#div1 {
+  margin: 20px 0;
+  padding: 10px 0;
+  overflow: auto;
+}
+
+div.painel-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 100%;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+div.box {
+  padding: 30px;
+  background: #EFF3FA;
+  float: left;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+#div1 {
+  margin: 0 auto;
+  background: #EFF3FA; 
+  padding: 30px;
+}
+
+div.logon {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#div2, #div3 {
+  margin: 40px 0;
+}
+
+div.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 2px;
+}
+
+.form-group button {
+  padding: 8px;
+  background: #404E82;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.painel-row2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 100%;
+  gap: 20px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#painel {
+  text-align: center;
+  margin: 0 auto;
+  background: #EFF3FA; 
+  padding: 30px;
+}
+
+div.mudancadelogin {
+  float: center;
+  text-align: center;
+  background-color: #EFF3FA;;
+  padding: 30px;
+  margin: 10px;
+}
+
+div.box2 {
+  margin: 0 auto;
+  padding: 30px;
+  background: #EFF3FA;
+  float: center;
+  text-align: center;
+  align-items: center;
+}
+
+#rodape {
+  color: #FFF;
+  background: #404E82;
+  padding: 8px 12px;
+  border-top: 3px solid #D99C44;
+  text-align: center;
+}
